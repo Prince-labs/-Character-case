@@ -1,0 +1,17 @@
+//strcat 
+
+#include<stdio.h>
+#include<string.h>
+main()
+{
+	char fname[25],cname[25];
+	int x;
+	printf("Enter First name:: ");
+	scanf("%s",&fname);
+	
+	printf("Enter last name:: ");
+	scanf("%s",&cname);
+	strcat(fname,cname);
+	printf("Your name is %s",fname);
+	return 0;
+}
