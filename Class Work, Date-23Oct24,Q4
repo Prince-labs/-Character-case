@@ -1,0 +1,51 @@
+//Date-23-10-2024
+//Question 4
+//structure where function returns reference
+
+
+#include<stdio.h>
+#include<stdlib.h>  
+
+struct student
+{
+	char name[25];
+	int marksJ; 
+	int marksC;
+	int marksF;
+};
+
+int* calc(struct student *x);
+
+int main()
+{
+    int *total;
+    struct student s;
+   	
+	printf("\nEnter student name:");
+	scanf("%s",s.name);
+	printf("\nEnter marks for Java: ");
+	scanf("%d",&s.marksJ);
+	printf("\nEnter marks for C Programing: ");
+	scanf("%d",&s.marksC);
+	printf("\nEnter marks for FLA: ");
+	scanf("%d",&s.marksF);
+	
+    total = calc(&s);
+    
+ 	printf("\nName:%s",s.name);
+	printf("\nMarks in Java:%d",s.marksJ);
+	printf("\nMarks in C Programing:%d",s.marksC);
+	printf("\nMArks in FLA:%d",s.marksF);
+	printf("\nTotal Marks:%d",total);
+    free(total);
+    
+    return 0;
+}
+
+int* calc(struct student *x)
+{
+    int *total = (int *)malloc(sizeof(int));  
+    *total = x->marksJ + x->marksC + x->marksF;
+    return total;
+}
+
