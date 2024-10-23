@@ -1,0 +1,41 @@
+//Date-23-10-2024
+//Question 1
+//Pass structure reference to a function(passing values using function)
+
+
+#include <stdio.h>
+
+struct student
+ {
+    char name[50];
+    int age;
+    char grade[3];
+};
+
+void display(struct student *s) 
+{ 
+	printf("________________________\n");
+    printf("Student Name: %s\n", s->name);
+    printf("Student Age: %d\n", s->age);
+    printf("Student Grade: %s\n", s->grade);
+    printf("________________________\n");
+}
+
+main()
+ {
+    struct student s;
+
+    printf("Enter student name: ");
+    scanf("%s", s.name);  
+
+    printf("Enter student age: ");
+    scanf("%d", &s.age);  
+
+    printf("Enter student grade: ");
+    scanf("%s", s.grade);  
+
+    display(&s); 
+
+    return 0;
+} 
+
