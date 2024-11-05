@@ -1,0 +1,25 @@
+//Question 3
+//efficient data storage 
+//Date-05Nov24
+#include <stdio.h>
+
+union StudentData {
+    char grade;
+    int studentID;
+    float cgpa;
+};
+
+int main() {
+    union StudentData data;
+
+    data.grade = 'A';
+    printf("\nGrade: %c\n", data.grade);
+
+    data.studentID = 12345;
+    printf("Student ID: %d\n", data.studentID);
+
+    data.cgpa = 3.75;
+    printf("CGPA: %.2f\n", data.cgpa);
+
+    return 0;
+}
