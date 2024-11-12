@@ -1,0 +1,68 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+
+\titleformat{\section}{\large\bfseries\color{purple}}{}{0em}{}[\titlerule]
+
+
+\begin{document}
+
+
+\begin{center}
+    \begin{minipage}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{image/554835.png}
+    \end{minipage}%
+    \hspace{0.1\textwidth}%
+    \begin{minipage}{0.6\textwidth}
+        {\LARGE Prince Kumar Gupta} \\
+        \vspace{1mm}
+        \small Email: \href{mailto:pg186392@gmail.com}{pg186392@gmail.com} \\
+        Phone: +91 7577887697 \\
+        LinkedIn: \href{https://linkedin.com}{linkedin.com/in/your-profile} \\
+        Address: Dhemaji, Dhemaji, 787059, India
+    \end{minipage}
+\end{center}
+\vspace{10pt} 
+
+\section*{Objective}
+MCA student at Dibrugarh University with foundational skills in C and Java programming. Previously completed a BCA, building a strong understanding of core computer science concepts. Eager to apply my knowledge and continue growing in software development roles.
+
+\section*{Education}
+\textbf{Master of Computer Applications (MCA)} \hfill 2024-2026 \\
+Dibrugarh University, India \\
+\textit{Ongoing}
+
+\vspace{5pt}
+
+\textbf{Bachelor of Computer Applications (BCA)} \hfill 2021-2024 \\
+University Name (if available) \
+\section*{Skills}
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item \textbf{Technical Skills:} Programming languages (Python, Java, C), Data analysis (Excel), Design software (Adobe Photoshop), Operating systems (Windows, macOS, Linux)
+    \item \textbf{Soft Skills:} Communication, Teamwork, Leadership, Adaptability
+\end{itemize}
+
+
+\section*{Projects}
+\textbf{School Website Development} \hfill 2023 \\
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item Designed and developed a responsive school website using HTML, CSS, and JavaScript.
+    \item Implemented a user-friendly CMS for easy content updates.
+    \item Optimized website for SEO and improved page load speed.
+\end{itemize}
+
+
+\section*{Additional Information}
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item \textbf{Languages:} English, Hindi, Assamese
+    \item \textbf{Certifications:} Bluetooth Robotics
+    \item \textbf{Interests:} Photography
+\end{itemize}
+
+\end{document}
