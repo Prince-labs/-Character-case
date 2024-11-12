@@ -1,0 +1,98 @@
+\documentclass{beamer}
+\usetheme{Boadilla}
+\title{Break and Continue Statements in Programming}
+\author{Prince Kumar Gupta}
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Overview}
+This presentation covers the following topics:
+\begin{itemize}
+    \item Introduction to break statement
+    \item Introduction to continue statement
+    \item Examples and usage
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Break Statement}
+The break statement is used to exit from a loop or switch statement prematurely.
+\begin{itemize}
+    \item It terminates the innermost loop or switch.
+    \item It transfers control to the next statement after the loop or switch.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Example of Break Statement}
+\begin{verbatim}
+for (int i = 0; i < 10; i++) {
+    if (i == 5) {
+        break; % Exit the loop when i is 5
+    }
+    printf("%d\n", i);
+}
+\end{verbatim}
+Explanation:
+\begin{itemize}
+    \item The loop will print numbers from 0 to 4.
+    \item When i becomes 5, the break statement is executed, and the loop terminates.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Continue Statement}
+The continue statement is used to skip the current iteration of a loop and proceed to the next iteration.
+\begin{itemize}
+    \item It does not terminate the loop but skips the remaining code for the current iteration.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Example of Continue Statement}
+\begin{verbatim}
+for (int i = 0; i < 10; i++) {
+    if (i == 5) {
+        continue; % Skip when i is 5
+    }
+    printf("%d\n", i);
+}
+\end{verbatim}
+Explanation:
+\begin{itemize}
+    \item The loop will print numbers from 0 to 9 except 5.
+    \item When i equals 5, the continue statement is executed, and the loop skips printing 5.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Comparison of Break and Continue}
+\begin{itemize}
+    \item break: Exits the loop entirely.
+    \item continue: Skips the current iteration and continues with the next iteration of the loop.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Use Cases}
+\begin{itemize}
+    \item Use break when you need to exit a loop early based on a condition (e.g., finding an element in a list).
+    \item Use continue when you want to skip processing certain values but continue looping (e.g., skipping invalid input in a user-driven loop).
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Conclusion}
+In summary:
+\begin{itemize}
+    \item The break and continue statements are useful tools to control the flow of loops.
+    \item break terminates the loop, while continue skips the current iteration and proceeds to the next.
+\end{itemize}
+Thank you for your attention!
+\end{frame}
+
+\end{document}
