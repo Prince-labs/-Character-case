@@ -1,0 +1,83 @@
+
+
+\documentclass[a4paper,12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+
+% Set page margins
+\geometry{top=1in, bottom=1in, left=1in, right=1in}
+
+% Header and Footer configuration
+\pagestyle{fancy}
+\fancyhead[L]{MCA Examination}
+\fancyhead[C]{Semester - I}
+\fancyhead[R]{Time: 3 Hours}
+\fancyfoot[C]{Page \thepage}
+
+% Title configuration
+\title{MCA Examination\\
+       Semester - I\\
+       Subject: Computer Science Fundamentals\\
+       Maximum Marks: 50}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Section A: Multiple Choice Questions (15 Marks)}
+
+\begin{enumerate}
+    \item Which of the following is the main function of the CPU?
+    \begin{enumerate}
+        \item Store data
+        \item Execute instructions
+        \item Provide output
+        \item None of the above
+    \end{enumerate}
+    (5 Marks)
+
+    \item Which of the following is a high-level programming language?
+    \begin{enumerate}
+        \item Assembly Language
+        \item C++
+        \item Machine Language
+        \item Binary Code
+    \end{enumerate}
+    (5 Marks)
+
+    \item In which year was the first computer virus discovered?
+    \begin{enumerate}
+        \item 1970
+        \item 1983
+        \item 1986
+        \item 1990
+    \end{enumerate}
+    (5 Marks)
+
+   
+
+\newpage 
+
+\section*{Section B: Short Answer Questions (35 Marks)}
+
+\begin{enumerate}
+    \item Explain the concept of a "Stack" in data structures with an example. (5 Marks)\\
+    
+    \item What is the difference between primary key and foreign key in relational databases? (5 Marks)\\
+    
+    \item Define the term "Object-Oriented Programming". List the four main principles of OOP. (5 Marks)\\
+    
+    \item Write a C++ program to find the factorial of a number using recursion. (5 Marks)\\
+    
+    \item What is the difference between a process and a thread? (5 Marks)\\
+    
+    \item Explain the different types of software licenses. (5 Marks)\\
+    
+    \item Describe the concept of a "Linked List" and its advantages over arrays. (5 Marks)\\
+\end{enumerate}
+\end{document}
